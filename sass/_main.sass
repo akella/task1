@@ -1,0 +1,69 @@
+// Normally mainpage styles
+body
+	padding: 20px 
+	
+
+.popup
+	margin: 30px 
+	width: 310px 
+	display: inline-block
+	vertical-align: top
+	border-radius:  10px
+	background: #ECECEC
+	border: 1px solid #fff
+	box-shadow: 0 1px 20px rgba(0,0,0,.29)
+	&.popup_wide
+		width: 720px 
+	.popup__head
+		+background-image(linear-gradient(bottom, #6559b0 0%, #79a9be 100%))
+		border-radius: 10px 10px 0 0 
+		height: 53px 
+		line-height: 53px
+		padding: 0 0 0 20px
+		font-size: 15px   
+		font-weight: bold
+		color: #ebebeb
+		text-shadow: 0 -1px 0 #000000 
+	.popup__content
+		padding: 10px 20px
+	.popup__bottom
+		padding-top: 10px 
+		border-top: 1px solid #C2C2C2 
+		text-align: center
+		overflow: hidden
+		.submit
+			display: inline-block
+			color: #ef6c64
+			font-size: 48px
+			font-weight: bold
+			padding: 0 10px 
+			text-shadow: 0 1px 1px rgba(255,255,255,.82)
+			border: 1px solid #C2C2C2
+			border-radius: 2px
+			text-align: center
+			box-shadow: inset 0 4px 4px rgba(#fff, .6)
+			+background-image(linear-gradient(bottom, #C2C2C2 0%, #EAE9E9 100%))
+			
+			&.submit_small
+				// font-size: 24px 
+				// height: 72px 
+				// line-height: 72px 
+				float: left
+		.socials
+			float: right
+			
+.field
+	margin-bottom: 20px 
+	label
+		font-size: 15px 
+		display: block
+		color: #333333
+		margin-bottom: 4px  
+	input
+		box-shadow: inset 0 1px 5px rgba(0,0,0,.48)
+		+box-sizing(border-box)
+		width: 100%
+		padding: 10px  
+		border: 1px solid #CECECE 
+		font-size: 15px 
+
